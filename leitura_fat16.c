@@ -346,5 +346,7 @@ int main(int argc, char *argv[])
 
 	printf("\n=======FIM DAS ENTRADAS DIRETORIO RAIZ=======\n");
 
+	fclose(fp);
+
 	return 0;
 }
